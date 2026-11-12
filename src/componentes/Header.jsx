@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import {useRound} from "lucide-react";
+import {UserRound} from "lucide-react";
 import "./Header.css";
 
 function Header(){
@@ -9,6 +9,7 @@ function Header(){
                 <Link to='/'>Home</Link>
                 <Link to='/preguntas'>Preguntas</Link>
                 <Link to='/producto'>Producto</Link>
+                <Link to='/login'><UserRound size={25}/></Link>
 
             </nav>
         </header>
